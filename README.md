@@ -11,12 +11,16 @@ So far it counts with two functionalities:
 
 ### Install
 
-(Optional) 
+Clone repository and access directory
+
+(Optional - create an environment) 
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
+
+Install required libraries
 
 ```bash
 pip install requirements.txt
