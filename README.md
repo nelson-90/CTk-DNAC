@@ -20,9 +20,17 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-Install required libraries
+Install required libraries:
 
 ```bash
 pip install requirements.txt
 ```
+Access folder **config** and edit **dnac.config** file, change example IP o FQDN to your DNAC server info.
 
+Change **hosts** file, inside write IPs of the switches that you want to possibly execute show commands.
+
+Execute:
+
+```bash
+python main.py
+```
